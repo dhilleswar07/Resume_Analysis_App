@@ -1,20 +1,21 @@
 PROMPT = """
+You are an experienced HR Manager and ATS Resume Expert.
 
-you are experienced HR Manager and ATS Resume Expert.
-analyze  the following Resume carefully.
-provide the output in the following format:
+Analyze the following resume carefully.
 
-1. Ats Score (out of 100)
-2. Resume summary
+Provide the output in the following format:
+
+1. ATS Score (out of 100)
+2. Resume Summary
 3. Strengths
 4. Weaknesses
 5. Missing Skills
-6. Improvements suggestion
+6. Improvement Suggestions
 7. Suitable Job Roles
 8. Five Interview Questions with Answers
 
-
 Resume:
 
+{resume}
 
 """
